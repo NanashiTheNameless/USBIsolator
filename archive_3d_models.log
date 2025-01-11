@@ -1,0 +1,21 @@
+01-10 23:34:19 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 220:Plugin executed on: 'linux'
+01-10 23:34:19 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 221:Plugin executed with python version: '3.10.12 (main, Nov  6 2024, 20:22:13) [GCC 11.4.0]'
+01-10 23:34:19 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 222:KiCad build version: 8.0.7-8.0.7-0~ubuntu22.04.1
+01-10 23:34:19 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 223:Plugin version: 1.0.12
+
+01-10 23:34:19 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 228:Screen sizes: [wx.Size(1920, 1080)]
+01-10 23:34:19 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 235:Dialog size: wx.Size(213, 81)
+01-10 23:34:19 com_github_MitjaNemec_Archive3DModels.action_archive_3d_models 237:Char size: 17
+01-10 23:34:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 26:Starting to archive 3D models
+01-10 23:34:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: SW2
+01-10 23:34:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SW-TH_DS-02.wrl
+01-10 23:34:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SW-TH_DS-02.wrl
+01-10 23:34:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: SW1
+01-10 23:34:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SW-TH_L14.2-W9.9-H5.4-P2.54-R.wrl
+01-10 23:34:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SW-TH_L14.2-W9.9-H5.4-P2.54-R.wrl
+01-10 23:34:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: USB1
+01-10 23:34:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${EASYEDA2KICAD}/easyeda2kicad.3dshapes/USB-A-TH_AF-90-ZJWG-ZB.wrl
+01-10 23:34:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${EASYEDA2KICAD}/easyeda2kicad.3dshapes/USB-A-TH_AF-90-ZJWG-ZB.wrl
+01-10 23:34:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 47:Getting 3D models for footprint of: USB2
+01-10 23:34:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 59:Trying to copy: ${EASYEDA2KICAD}/easyeda2kicad.3dshapes/USB-A-TH_AM90.wrl
+01-10 23:34:20 com_github_MitjaNemec_Archive3DModels.archive_3d_models 139:Remapping: ${EASYEDA2KICAD}/easyeda2kicad.3dshapes/USB-A-TH_AM90.wrl
