@@ -10,6 +10,13 @@ on:
       - '**/*.gif'
       - '**/*.webp'
       - '**/*.avif'
+      - '*.svg'
+      - '*.png'
+      - '*.jpg'
+      - '*.jpeg'
+      - '*.gif'
+      - '*.webp'
+      - '*.avif'
   push:
     paths:
       - '**/*.svg'
@@ -19,6 +26,13 @@ on:
       - '**/*.gif'
       - '**/*.webp'
       - '**/*.avif'
+      - '*.svg'
+      - '*.png'
+      - '*.jpg'
+      - '*.jpeg'
+      - '*.gif'
+      - '*.webp'
+      - '*.avif'
 
 jobs:
   build:
