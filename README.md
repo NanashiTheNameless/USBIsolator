@@ -13,8 +13,8 @@ SW1:
 5 -> USB1: SH  =  USB2: SH  (DEFAULT: ON)
 
 SW2:
-1 -> USP2: SH  =  USB2: GND (DEFAULT: OFF)
-2 -> USP1: SH  =  USB1: GND (DEFAULT: OFF)
+1 -> USB2: SH  =  USB2: GND (DEFAULT: OFF)
+2 -> USB1: SH  =  USB1: GND (DEFAULT: OFF)
 ```
 
 ![BoardFront](<BoardF.png>)

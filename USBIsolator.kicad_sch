@@ -1570,7 +1570,7 @@
 		)
 		(uuid "fe0a854b-f1f6-4017-8aa7-bc8d745c01c4")
 	)
-	(text "SW1:\n1 -> USB1: VCC =  USB2: VCC (DEFAULT: ON)\n2 -> USB1: D-  =  USB2: D-  (DEFAULT: ON)\n3 -> USB1: D+  =  USB2: D+  (DEFAULT: ON)\n4 -> USB1: GND =  USB2: GND (DEFAULT: ON)\n5 -> USB1: SH  =  USB2: SH  (DEFAULT: ON)\n\nSW2:\n1 -> USP2: SH  =  USB2: GND (DEFAULT: OFF)\n2 -> USP1: SH  =  USB1: GND (DEFAULT: OFF)"
+	(text "SW1:\n1 -> USB1: VCC =  USB2: VCC (DEFAULT: ON)\n2 -> USB1: D-  =  USB2: D-  (DEFAULT: ON)\n3 -> USB1: D+  =  USB2: D+  (DEFAULT: ON)\n4 -> USB1: GND =  USB2: GND (DEFAULT: ON)\n5 -> USB1: SH  =  USB2: SH  (DEFAULT: ON)\n\nSW2:\n1 -> USB2: SH  =  USB2: GND (DEFAULT: OFF)\n2 -> USB1: SH  =  USB1: GND (DEFAULT: OFF)"
 		(exclude_from_sim no)
 		(at 157.48 124.46 0)
 		(effects
