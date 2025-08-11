@@ -1,6 +1,6 @@
 # 🏳️‍🌈 Opinionated Queer License v1.2
 
-© Copyright [NamelessNanashi](https://NamelessNanashi.dev/)
+© Copyright [NamelessNanashi](https://git.NamelessNanashi.dev/)
 
 ## Permissions
 

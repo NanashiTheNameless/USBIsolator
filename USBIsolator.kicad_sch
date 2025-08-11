@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "4c916072-0df5-4cbd-b7ea-bac273c23a00")
 	(paper "A4")
 	(lib_symbols
@@ -73,9 +73,22 @@
 						(type background)
 					)
 				)
-				(circle
-					(center -1.27 -2.54)
-					(radius 0.51)
+				(polyline
+					(pts
+						(xy -1.78 -2.54) (xy -2.79 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 3.05) (xy -1.27 5.08)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -95,10 +108,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -1.78 -2.54) (xy -2.79 2.54)
-					)
+				(circle
+					(center -1.27 -2.54)
+					(radius 0.51)
 					(stroke
 						(width 0)
 						(type default)
@@ -110,18 +122,6 @@
 				(polyline
 					(pts
 						(xy -1.27 -3.05) (xy -1.27 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 3.05) (xy -1.27 5.08)
 					)
 					(stroke
 						(width 0)
@@ -145,7 +145,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -3.05) (xy 1.27 -5.08)
+						(xy 1.27 3.05) (xy 1.27 5.08)
 					)
 					(stroke
 						(width 0)
@@ -155,10 +155,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 1.27 3.05) (xy 1.27 5.08)
-					)
+				(circle
+					(center 1.27 2.54)
+					(radius 0.51)
 					(stroke
 						(width 0)
 						(type default)
@@ -178,9 +177,10 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 1.27 2.54)
-					(radius 0.51)
+				(polyline
+					(pts
+						(xy 1.27 -3.05) (xy 1.27 -5.08)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -208,24 +208,6 @@
 					)
 				)
 				(pin unspecified line
-					(at 1.27 7.62 270)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
 					(at -1.27 -7.62 90)
 					(length 2.54)
 					(name "3"
@@ -236,6 +218,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 1.27 7.62 270)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -262,6 +262,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "easyeda2kicad:DSWB05LHGET"
 			(exclude_from_sim no)
@@ -322,18 +323,6 @@
 			(symbol "DSWB05LHGET_0_1"
 				(polyline
 					(pts
-						(xy -5.08 -7.62) (xy 5.08 -7.62)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy -5.08 7.62) (xy -5.08 -7.62)
 					)
 					(stroke
@@ -346,103 +335,7 @@
 				)
 				(polyline
 					(pts
-						(xy -3.3 -5.59) (xy -3.3 -4.57)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.3 -4.57) (xy 3.3 -4.57)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.3 -3.05) (xy -3.3 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.3 -2.03) (xy 3.3 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.3 -0.51) (xy -3.3 0.51)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.3 0.51) (xy 3.3 0.51)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.3 2.03) (xy -3.3 3.05)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.3 3.05) (xy 3.3 3.05)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.3 4.57) (xy -3.3 5.59)
+						(xy -5.08 -7.62) (xy 5.08 -7.62)
 					)
 					(stroke
 						(width 0)
@@ -466,7 +359,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -4.57) (xy 0 -5.59)
+						(xy -3.3 4.57) (xy -3.3 5.59)
 					)
 					(stroke
 						(width 0)
@@ -478,7 +371,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -2.03) (xy 0 -3.05)
+						(xy -3.3 3.05) (xy 3.3 3.05)
 					)
 					(stroke
 						(width 0)
@@ -490,7 +383,91 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0.51) (xy 0 -0.51)
+						(xy -3.3 2.03) (xy -3.3 3.05)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.3 0.51) (xy 3.3 0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.3 -0.51) (xy -3.3 0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.3 -2.03) (xy 3.3 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.3 -3.05) (xy -3.3 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.3 -4.57) (xy 3.3 -4.57)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.3 -5.59) (xy -3.3 -4.57)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.59) (xy 0 4.57)
 					)
 					(stroke
 						(width 0)
@@ -514,7 +491,31 @@
 				)
 				(polyline
 					(pts
-						(xy 0 5.59) (xy 0 4.57)
+						(xy 0 0.51) (xy 0 -0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.03) (xy 0 -3.05)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.57) (xy 0 -5.59)
 					)
 					(stroke
 						(width 0)
@@ -550,91 +551,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.3 -5.59) (xy -3.3 -5.59)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.3 -4.57) (xy 3.3 -5.59)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.3 -3.05) (xy -3.3 -3.05)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.3 -2.03) (xy 3.3 -3.05)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.3 -0.51) (xy -3.3 -0.51)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.3 0.51) (xy 3.3 -0.51)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.3 2.03) (xy -3.3 2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.3 3.05) (xy 3.3 2.03)
+						(xy 3.3 5.59) (xy 3.3 4.57)
 					)
 					(stroke
 						(width 0)
@@ -658,7 +575,91 @@
 				)
 				(polyline
 					(pts
-						(xy 3.3 5.59) (xy 3.3 4.57)
+						(xy 3.3 3.05) (xy 3.3 2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.3 2.03) (xy -3.3 2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.3 0.51) (xy 3.3 -0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.3 -0.51) (xy -3.3 -0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.3 -2.03) (xy 3.3 -3.05)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.3 -3.05) (xy -3.3 -3.05)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.3 -4.57) (xy 3.3 -5.59)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.3 -5.59) (xy -3.3 -5.59)
 					)
 					(stroke
 						(width 0)
@@ -682,7 +683,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 -7.62) (xy 5.08 7.62)
+						(xy 5.08 7.62) (xy -5.08 7.62)
 					)
 					(stroke
 						(width 0)
@@ -694,7 +695,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 7.62) (xy -5.08 7.62)
+						(xy 5.08 -7.62) (xy 5.08 7.62)
 					)
 					(stroke
 						(width 0)
@@ -715,24 +716,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 5.08 180)
-					(length 5.08)
-					(name "B1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -813,16 +796,16 @@
 					)
 				)
 				(pin input line
-					(at 10.16 -5.08 180)
+					(at 10.16 5.08 180)
 					(length 5.08)
-					(name "B5"
+					(name "B1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "6"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -831,16 +814,16 @@
 					)
 				)
 				(pin input line
-					(at 10.16 -2.54 180)
+					(at 10.16 2.54 180)
 					(length 5.08)
-					(name "B4"
+					(name "B2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "7"
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -867,16 +850,34 @@
 					)
 				)
 				(pin input line
-					(at 10.16 2.54 180)
+					(at 10.16 -2.54 180)
 					(length 5.08)
-					(name "B2"
+					(name "B4"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "9"
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -5.08 180)
+					(length 5.08)
+					(name "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -885,6 +886,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "easyeda2kicad:GT-2A001F-CGNG1"
 			(exclude_from_sim no)
@@ -1038,24 +1040,6 @@
 					)
 				)
 				(pin unspecified line
-					(at 6.35 -8.89 90)
-					(length 2.54)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
 					(at 6.35 8.89 270)
 					(length 2.54)
 					(name "6"
@@ -1073,7 +1057,26 @@
 						)
 					)
 				)
+				(pin unspecified line
+					(at 6.35 -8.89 90)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "easyeda2kicad:USB-CONN-AM90"
 			(exclude_from_sim no)
@@ -1141,6 +1144,42 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -2.54 12.7 270)
+					(length 5.08)
+					(name "MH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MH1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -2.54 -10.16 90)
+					(length 5.08)
+					(name "MH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MH2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 				(pin input line
@@ -1215,44 +1254,19 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at -2.54 12.7 270)
-					(length 5.08)
-					(name "MH1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MH1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -2.54 -10.16 90)
-					(length 5.08)
-					(name "MH2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MH2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "SW1:\n1 -> USB1: VCC =  USB2: VCC (DEFAULT: ON)\n2 -> USB1: D-  =  USB2: D-  (DEFAULT: ON)\n3 -> USB1: D+  =  USB2: D+  (DEFAULT: ON)\n4 -> USB1: GND =  USB2: GND (DEFAULT: ON)\n5 -> USB1: SH  =  USB2: SH  (DEFAULT: ON)\n\nSW2:\n1 -> USB2: SH  =  USB2: GND (DEFAULT: OFF)\n2 -> USB1: SH  =  USB1: GND (DEFAULT: OFF)"
+		(exclude_from_sim no)
+		(at 157.48 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
 		)
+		(uuid "5caa5558-8fc5-4104-ae20-87090c0a9c89")
 	)
 	(junction
 		(at 134.62 96.52)
@@ -1569,16 +1583,6 @@
 			(type default)
 		)
 		(uuid "fe0a854b-f1f6-4017-8aa7-bc8d745c01c4")
-	)
-	(text "SW1:\n1 -> USB1: VCC =  USB2: VCC (DEFAULT: ON)\n2 -> USB1: D-  =  USB2: D-  (DEFAULT: ON)\n3 -> USB1: D+  =  USB2: D+  (DEFAULT: ON)\n4 -> USB1: GND =  USB2: GND (DEFAULT: ON)\n5 -> USB1: SH  =  USB2: SH  (DEFAULT: ON)\n\nSW2:\n1 -> USB2: SH  =  USB2: GND (DEFAULT: OFF)\n2 -> USB1: SH  =  USB1: GND (DEFAULT: OFF)"
-		(exclude_from_sim no)
-		(at 157.48 124.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "5caa5558-8fc5-4104-ae20-87090c0a9c89")
 	)
 	(symbol
 		(lib_id "easyeda2kicad:USB-CONN-AM90")
@@ -1950,4 +1954,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
