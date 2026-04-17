@@ -1,6 +1,3 @@
-stages:
-  - test
-
 image-optimizer-manual-build-job-0:
   stage: test
   image: node:20-bookworm
