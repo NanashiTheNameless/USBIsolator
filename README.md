@@ -1,8 +1,23 @@
 # USBIsolator
 
-A simple USB Isolator board with some simple functions that I find useful!
+Simple USB isolator board project with two hardware variants:
 
-All the files needed to make your own are located in the [Production folder](<production>).
+- `USBIsolator.alt` is the smaller, simpler version and is the version currently used in production.
+- `USBIsolator` is the full version and includes the switch-function cheatsheet in its README.
+
+## Project folders:
+
+- [USBIsolator](USBIsolator/) - full version (with cheatsheet)
+- [USBIsolator.alt](USBIsolator.alt/) - compact production version
+
+## Production files:
+
+- [USBIsolator production](USBIsolator/production/)
+- [USBIsolator.alt production](USBIsolator.alt/production/)
+
+## Cheatsheet
+
+- [USBIsolator.odt](USBIsolator.odt)
 
 ```text
 SW1:
@@ -17,6 +32,16 @@ SW2:
 2 -> USB1: SH  =  USB1: GND (DEFAULT: OFF)
 ```
 
-![BoardFront](<BoardF.png>)
+## Images
 
-![BoardBack](<BoardB.png>)
+### USBIsolator (full version)
+
+![USBIsolator Front](BoardF.png)
+
+![USBIsolator Back](BoardB.png)
+
+### USBIsolator.alt (production version)
+
+![USBIsolator.alt Front](BoardF.alt.png)
+
+![USBIsolator.alt Back](BoardB.alt.png)
